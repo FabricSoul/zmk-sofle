@@ -75,7 +75,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans    &to 0      &to 3
             >;
 
-            display-name = "layer1";
+            display-name = "kbd & mouse";
             sensor-bindings = <&scroll_encoder>;
         };
 
