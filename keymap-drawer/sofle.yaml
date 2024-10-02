@@ -194,8 +194,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: base, h: toggle}
-  - {t: '2', h: toggle}
-  '2':
+  - {t: system, h: toggle}
+  system:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
