@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-tab$$
   - {t: symbol_and_num, h: toggle}
-  - {t: layer1, h: toggle}
+  - {t: kbd & mouse, h: toggle}
   symbol_and_num:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,7 +130,7 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: base, h: toggle}
-  layer1:
+  kbd & mouse:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -258,5 +258,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: layer1, h: toggle}
+  - {t: kbd & mouse, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
