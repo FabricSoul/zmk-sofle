@@ -405,8 +405,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+ F
-  - Sft+ G
+  - '&shift_f'
+  - '&shift_g'
   - Sft+ C
   - Sft+ R
   - Sft+ L
