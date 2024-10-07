@@ -38,6 +38,22 @@
         tap-ms = <30>;
     };
 
+    macros {
+        shift_f: shift_f {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT &kp F>;
+            label = "SHIFT_F";
+        };
+
+        shift_g: shift_g {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT &kp G>;
+            label = "SHIFT_G";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -119,7 +135,7 @@
         shift {
             bindings = <
 &trans  &trans     &trans     &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(F)  &kp LS(G)  &kp LS(C)  &kp LS(R)  &kp LS(L)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &shift_f   &shift_g   &kp LS(C)  &kp LS(R)  &kp LS(L)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LS(D)  &kp LS(H)  &kp LS(T)  &kp LS(N)  &kp LS(S)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans     &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans     &trans     &kp LSHFT  &kp LCTRL    &trans  &trans  &trans  &trans  &trans  &trans
