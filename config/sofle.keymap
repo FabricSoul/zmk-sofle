@@ -112,11 +112,11 @@
 
         aoe4 {
             bindings = <
-&trans         &trans        &trans     &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp ESCAPE
-&kp TAB        &kp SEMI      &kp COMMA  &kp DOT    &kp P   &kp Y     &trans  &kp F   &kp G   &kp C   &kp R   &kp L   &trans
-&kp CAPS       &kp A         &kp O      &kp E      &kp U   &kp I     &trans  &kp D   &kp H   &kp T   &kp N   &kp S   &trans
-&kp BACKSLASH  &kp SQT       &kp Q      &kp J      &kp K   &kp X     &trans  &kp B   &kp M   &kp W   &kp V   &kp Z   &to 0
-&trans         &kp LEFT_ALT  &mo 5      &kp SPACE  &mo 6   &mo 7     &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans        &trans     &trans     &trans        &trans              &trans  &trans  &trans  &trans  &trans  &trans  &kp ESCAPE
+&kp TAB        &kp SEMI      &kp COMMA  &kp DOT    &kp P         &kp Y               &trans  &kp F   &kp G   &kp C   &kp R   &kp L   &trans
+&kp CAPS       &kp A         &kp O      &kp E      &kp U         &kp I               &trans  &kp D   &kp H   &kp T   &kp N   &kp S   &trans
+&kp BACKSLASH  &kp SQT       &kp Q      &kp J      &kp K         &kp X               &trans  &kp B   &kp M   &kp W   &kp V   &kp Z   &to 0
+&trans         &kp LEFT_ALT  &mo 5      &kp SPACE  &kp LEFT_ALT  &kp LEFT_CONTROL    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "aoe4";
