@@ -44,6 +44,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT &kp F>;
             label = "SHIFT_F";
+            tap-ms = <100>;
         };
 
         shift_g: shift_g {
@@ -51,6 +52,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT &kp G>;
             label = "SHIFT_G";
+            wait-ms = <100>;
         };
     };
 
