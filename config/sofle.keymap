@@ -56,6 +56,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        meta {
+            bindings = <&kp LEFT_META>;
+            key-positions = <57 59>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
