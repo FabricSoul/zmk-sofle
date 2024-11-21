@@ -15,6 +15,11 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  //  600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
+&mt { flavor = "tap-preferred"; };
+
+&lt {
+};
+
 / {
     behaviors {
         mmv {
@@ -38,32 +43,7 @@
         tap-ms = <30>;
     };
 
-    macros {
-        shift_f: shift_f {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp F>;
-            label = "SHIFT_F";
-            tap-ms = <100>;
-        };
-
-        shift_g: shift_g {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT &kp G>;
-            label = "SHIFT_G";
-            wait-ms = <100>;
-        };
-    };
-
-    combos {
-        compatible = "zmk,combos";
-
-        meta {
-            bindings = <&kp LEFT_META>;
-            key-positions = <57 59>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
