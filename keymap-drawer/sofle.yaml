@@ -18,7 +18,7 @@ layers:
   - {t: ;, s: ':'}
   - {t: ',', s: <}
   - .
-  - P
+  - {t: P, h: kbd & mouse}
   - Y
   - $$mdi:arrow-down-bold$$
   - F
@@ -44,7 +44,7 @@ layers:
   - {t: '''', s: '"'}
   - Q
   - J
-  - {t: K, h: kbd & mouse}
+  - K
   - X
   - $$mdi:arrow-right-bold$$
   - B
@@ -148,7 +148,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:mouse-right-click-outline$$', type: held}
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
@@ -174,7 +174,7 @@ layers:
   - RGB OFF
   - RGB ON
   - RGB EFF
-  - {t: RGB EFR, type: held}
+  - RGB EFR
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
